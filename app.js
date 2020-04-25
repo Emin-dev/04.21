@@ -1,33 +1,27 @@
 
 
-// let txt = [" et praesentium sunt, optio dolor velit nobis molestiae at iste deserunt minima?"];
+let txt = "evolved in the 1940s when the demand for cheap housing rocketed after World War II. Economies of scale meant that large numbers of identical homes could be built faster and more cheaply to fulfil the increased demand. Developers purchased a dozen or more adjacent lots and conducted the building construction as an assembly-line process. This type of development is often criticised by city planners and architects because it overlooks the concept of community building, instead creating a homogeneous residential neighborhood with no local employment, commerce, services, or attractions.";
 
-
-// function lorem(){
-//     console.log(txt)
-//     let split=[]
-//     split = txt.split("");
-//     console.log(split)
-// }
-
-// lorem()
-
-
-let txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectusLorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectusLorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectus";
- 
 
 function myFunction(txt) {
-     let res = txt.split("");
-    let arr = [];
-    let count = 0;
-    res.forEach(e => {
+    let ayrilmis = txt.split("");
+    let countA = 0;
+    let countB = 0;
+    console.log(ayrilmis)
+    ayrilmis.forEach(e => {
         if (e == "a") {
-            arr.push(e)
-            count++
+            countA++
+        }
+        if (e == "b") {
+            countB++
         }
     });
-    console.log(arr)
-    console.log(count)
+  
+  return countA + " " + countB;
 }
 
-myFunction(txt)
+
+
+
+
+console.log( " count a and b  " + myFunction(txt));
