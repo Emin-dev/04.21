@@ -4,11 +4,11 @@ let txt = "evolved in the 1940s when the demand for cheap housing rocketed after
 
 
 function myFunction(txt) {
-    let ayrilmis = txt.split("");
+    let arr = txt.split("");
     let countA = 0;
     let countB = 0;
-    console.log(ayrilmis)
-    ayrilmis.forEach(e => {
+    console.log(arr)
+    arr.forEach(e => {
         if (e == "a") {
             countA++
         }
@@ -17,11 +17,12 @@ function myFunction(txt) {
         }
     });
   
-  return countA + " " + countB;
+  return Math.round(countA / countB) ;
 }
 
 
 
 
 
-console.log( " count a and b  " + myFunction(txt));
+
+console.log(`a b den ${myFunction(txt)} defe coxdu`)
