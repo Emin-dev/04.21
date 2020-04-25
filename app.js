@@ -13,11 +13,11 @@
 // lorem()
 
 
+let txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectusLorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectusLorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectus";
+ 
 
-
-function myFunction() {
-    let txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum aliquid, molestias reprehenderit a consequatur recusandae quae delectus";
-    let res = txt.split("");
+function myFunction(txt) {
+     let res = txt.split("");
     let arr = [];
     let count = 0;
     res.forEach(e => {
@@ -30,4 +30,4 @@ function myFunction() {
     console.log(count)
 }
 
-myFunction()
+myFunction(txt)
