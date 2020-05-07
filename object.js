@@ -1,4 +1,4 @@
-function Product(name, surname, age) {
+function Person(name, surname, age) {
     this.name = name;
     this.surname = surname;
     this.age = age;
@@ -17,14 +17,18 @@ let name=document.querySelector("#name").value
 let surname=document.querySelector("#surname").value
 let age=document.querySelector("#age").value
 
-let product1 = new Product(name,surname,age);
-//console.log(product1.fullInfo());
-
+let p1 = new Person(name,surname,age);
 
 let ul=document.querySelector("ul")
-ul.textContent=product1.fullInfo();
+let li = document.createElement("LI");    
+li.textContent=p1.fullInfo();  
+let p = document.createElement("p");          
+p.innerHTML='<input type="checkbox" >'
+li.appendChild(p);
 
+ul.appendChild(li);  
 })
+
 
 
 
