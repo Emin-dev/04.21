@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.inputbox {
+  margin: 10px;
+  padding: 10px;
+  border: solid 2px orange;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  display: inline-block;
+  width: 33%;
+}
+
+.box {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  margin: 10px;
+  padding: 10px;
+  border: solid 2px orange;
+}
+/*# sourceMappingURL=style.css.map */

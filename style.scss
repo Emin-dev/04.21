@@ -1,0 +1,33 @@
+*{
+    user-select: none;
+}
+
+
+.inputbox{
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px orange;
+    display: inline-block;
+    }
+
+
+
+ul{
+    list-style:none;
+     text-decoration: none; 
+}
+img{
+    width: 100%;
+}
+li{
+    box-sizing: border-box !important;
+    display: inline-block;
+    width: 33%;
+  }
+.box{
+    box-sizing: border-box !important;
+margin: 10px;
+padding: 10px;
+border: solid 2px orange;
+
+}
